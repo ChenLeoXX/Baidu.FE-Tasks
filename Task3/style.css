@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+#text-container {
+    background-color: #eee;
+    border: 1px solid #999;
+    padding: 20px;
+    overflow: auto;
+    margin: 16px;
+}
+#left-logo {
+    float: left;
+    min-width: 200px;
+    border: 1px solid #999;
+    padding: 20px;
+    background-color: #fff;
+}
+#left-logo > img {
+    width: 80px;
+    float: left;
+}
+#left-logo > p {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+
+}
+#right-logo {
+    float: right;
+    width: 120px;
+    border: 1px solid #999;
+    background-color: #fff;
+}
+#right-logo > img {
+    width: 80px;
+      display: block;
+     margin: 20px;
+     
+
+}
+#text {
+    background: #fff;
+    border: 1px solid #999;
+    margin: 0 140px 0 220px;
+    padding: 20px;
+
+}
